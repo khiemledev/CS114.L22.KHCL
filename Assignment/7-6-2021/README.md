@@ -12,7 +12,9 @@
 
 ```
 cd headlinesbot
-scrapy crawl thedailywtf -O output_file.json
-scrapy crawl theonion -O output_file.json
-scrapy crawl walkingeaglenews -O output_file.json
+scrapy crawl thedailywtf -O crawled_data/sarcasm/thedailywtf.json
+scrapy crawl theonion -O crawled_data/sarcasm/theonion.json
+scrapy crawl walkingeaglenews -O crawled_data/sarcasm/walkingeaglenews.json
+scrapy crawl theguardian -O crawled_data/official/theguardian.json
+scrapy crawl huffpost -O crawled_data/official/huffpost.json
 ```
